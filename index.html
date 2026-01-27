@@ -1,15 +1,23 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/genizy/fnaf@main/sl/style.css"/>
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/genizy/fnaf@main/sl/favicon.ico" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	<base href="https://cdn.jsdelivr.net/gh/genizy/fnaf@main/sl/">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="HandheldFriendly" content="true" />
     <title>Five Nights at Freddy's Sister Location</title>
 </head>
+
 <body>
     <div style="display: inline-block; -webkit-user-select: none; text-align: left">
-        <canvas id="MMFCanvas" width="1280" height="720"> Your browser does not support Canvas. </canvas>
+        <canvas id="MMFCanvas" width="1280" height="720"> Your browser does not support Canvas, Please try again. </canvas>
     </div>
     <div id="progress-container">
         <div style="margin-bottom: 6px;">Downloading... <span id="download-text">0%</span></div>
@@ -21,8 +29,8 @@
             <div id="extract-bar" style="height: 10px; background: #10b981; width: 0%; transition: width 0.2s;"></div>
         </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/genizy/fnaf@main/sl/main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
